@@ -19,9 +19,7 @@
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="genre.php" > <span class="glyphicon glyphicon-user"></span>Genre</a>
-					</li>
+					
 					<li class="nav-item">
 						<a class="nav-link" href="cart.php" > <span class="glyphicon glyphicon-user"></span>Cart</a>
 					</li>
