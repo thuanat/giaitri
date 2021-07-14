@@ -87,8 +87,8 @@
 				</div>	
 				<?php
 				session_start();
-				$conn = mysqli_connect('localhost','root','','demo');
-				$get_them = "SELECT*FROM song ORDER BY RAND() LIMIT 0,12";
+				$conn = mysqli_connect("52.6.114.59","diem","diem1234","diemtoy");
+				$get_them = "SELECT * FROM song ORDER BY RAND() LIMIT 0,12";
 				$run_them = mysqli_query($conn,$get_them);
 				while ($row=mysqli_fetch_array($run_them)) {
 					$song_id = $row['song_id'];
